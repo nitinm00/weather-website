@@ -5,8 +5,6 @@ const msg2 = document.querySelector('#msg-2')
 
 // msg1.textContent = 'From javascript'
 
-
-
 weatherForm.addEventListener('submit', (e) => {
     e.preventDefault()
 
@@ -27,7 +25,6 @@ weatherForm.addEventListener('submit', (e) => {
                 msg2.textContent = data.forecast
                 // console.log(data.location)
                 // console.log(data.forecast)
-
             }
         })
     })
